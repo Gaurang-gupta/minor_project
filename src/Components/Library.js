@@ -12,7 +12,7 @@ function Library() {
                     </Link>
                 </li>
                 <li>
-                    <h2>E -textbook access credentials and lists of books</h2>
+                    {/* <h2 className="temph2" >E -textbook access credentials and lists of books</h2> */}
                     <Link to="https://www.nitj.ac.in/nitj_files/links/E-books_Access_credentiasls_45203.pdf">
                     Access Credentials E-Books
                     </Link>
@@ -24,8 +24,10 @@ function Library() {
                 </li>
             </ul>
             <p className="library__timings">
-                Library Hours : 9.00 AM to 9.00 PM ( 9.00 AM till 12.00 midnight during examinations)
+               <span className="span1"> Library Hours : </span> 9.00 AM to 9.00 PM ( 9.00 AM till 12.00 midnight during examinations).
             </p>
+            <div className="table_contents">
+
             <table className="library__contacts">
                 <thead className="library__heading">
                     <tr>
@@ -57,6 +59,7 @@ function Library() {
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
     )
 }

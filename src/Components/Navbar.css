@@ -1,0 +1,61 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+  flex-grow: 0.6;
+}
+
+.navbar__right {
+  flex-grow: 0.4;
+}
+
+.navbar__logo {
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+}
+
+.navbar__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navbar__listItem {
+  font-weight: 500;
+}
+
+.navbar__listItem:hover {
+  cursor: pointer;
+}
+
+.dropDown__nav {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 76px;
+  min-width: 200px;
+  font-weight: 400;
+}
+
+.resources {
+  display: flex;
+  align-items: center;
+}

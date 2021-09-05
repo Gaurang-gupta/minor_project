@@ -1,0 +1,17 @@
+.dropDown__links {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.link {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.dropDown__links:hover {
+  font-weight: 500;
+}
+
+.dropDown {
+  padding-left: 5px;
+}

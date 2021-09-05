@@ -12,6 +12,9 @@ function Dropdown() {
                 <Link to="/contacts" className="link">Time Table</Link>
             </div>
             <div className="dropDown__links">
+                <Link to="/contacts" className="link">E-Library</Link>
+            </div>
+            <div className="dropDown__links">
                 <Link to="/contacts" className="link">Quick Links</Link>
             </div>
             <div className="dropDown__links">

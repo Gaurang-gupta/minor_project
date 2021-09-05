@@ -2,9 +2,11 @@
   position: sticky;
   top: 0;
   padding: 10px 20px;
-  background-color: whitesmoke;
+  background-color: #a6192e;
   display: flex;
+  color: white;
   justify-content: space-between;
+  border-bottom: 4px solid #FFC72C;
   align-items: center;
 }
 

@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Link } from "react-router-dom";
 import "./Dropdown.css"
 function Dropdown() {
     return (
-        <Router>
+        <Router> 
         <div className="dropDown">
             <div className="dropDown__links">
                 <Link to="/contacts" className="link">Question Papers</Link>
@@ -12,7 +12,7 @@ function Dropdown() {
                 <Link to="/contacts" className="link">Time Table</Link>
             </div>
             <div className="dropDown__links">
-                <Link to="/contacts" className="link">E-Library</Link>
+                <Link to="/library" className="link">E-Library</Link>
             </div>
             <div className="dropDown__links">
                 <Link to="/contacts" className="link">Quick Links</Link>

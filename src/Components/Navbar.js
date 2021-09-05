@@ -9,6 +9,7 @@ function Navbar() {
     const dropDownChangeHandler = () => {
         setDropDownOpen(()=>(!isDropDownOpen));
     }
+    
 
     return (
         <div className="navbar">
@@ -23,7 +24,8 @@ function Navbar() {
                         <div className="resources">
                             Resources {!isDropDownOpen ? <ArrowDropDownIcon/> : <ArrowDropUpIcon/>}
                         </div>
-                        <div className="dropDown__nav">
+                        <div className={`dropDown__nav ${isDropDownOpen && 'dropDown__nav__open'}`}>
+                           
                             {isDropDownOpen && <Dropdown/>}
                         </div>
                     </li>

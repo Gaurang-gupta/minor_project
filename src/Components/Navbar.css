@@ -6,7 +6,7 @@
   display: flex;
   color: white;
   justify-content: space-between;
-  border-bottom: 4px solid #FFC72C;
+  border-bottom: 4px solid #ffc72c;
   align-items: center;
 }
 
@@ -50,11 +50,17 @@
 }
 
 .dropDown__nav {
-  background-color: whitesmoke;
+  background-color: #a6192e;
   position: absolute;
-  top: 76px;
+  top: 80px;
   min-width: 200px;
   font-weight: 400;
+}
+
+.dropDown__nav__open {
+  border-left: 4px solid #ffc72c;
+  border-right: 4px solid #ffc72c;
+  border-bottom: 4px solid #ffc72c;
 }
 
 .resources {

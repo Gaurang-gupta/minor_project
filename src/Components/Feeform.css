@@ -1,0 +1,23 @@
+.feeform {
+    padding: 30px 0 0 0;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .feeform li {
+    padding: 13px;
+  }
+  .feeform ul {
+    margin: 21px 61px 61px 61px;
+  }
+  /* .temph2{
+      padding: 0 0 10px 0;
+   } */
+  .feeform h1 {
+    text-align: center;
+  }
+  .feeform a {
+    color: #a6192e;
+  }
+  

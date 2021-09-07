@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "./Dropdown.css"
-function Dropdown() {
+function Dropdown(props) {
     return (
         <div className="dropDown">
             <div className="dropDown__links">
-                <Link to="/contacts" className="link">Question Papers</Link>
+                <Link to={props.link} className="link">{props.title}</Link>
             </div>
-            <div className="dropDown__links">
+            {/* Question Papers */}
+
+            {/* <div className="dropDown__links">
                 <Link to="/contacts" className="link">Time Table & Calender</Link>
             </div>
             <div className="dropDown__links">
@@ -24,7 +26,7 @@ function Dropdown() {
             </div>
             <div className="dropDown__links">
                 <Link to="/emergency-contacts" className="link">Emergency Contacts</Link>
-            </div>
+            </div> */}
         </div>
     )
 }

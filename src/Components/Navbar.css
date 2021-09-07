@@ -55,6 +55,7 @@
   top: 80px;
   min-width: 200px;
   font-weight: 400;
+  list-style: none;
 }
 
 .dropDown__nav__open {
@@ -66,4 +67,38 @@
 .resources {
   display: flex;
   align-items: center;
+}
+
+.toggle {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  .navbar__list {
+    display: none;
+  }
+
+  .toggle {
+    display: block !important;
+    text-align: center;
+  }
+
+  .toggle .MuiButton-root {
+    color: white !important;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .dropDown__nav {
+    position: inherit;
+    list-style: none;
+  }
+
+  .dropDown__nav__open {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: none;
+  }
 }

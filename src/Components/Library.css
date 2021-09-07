@@ -1,44 +1,42 @@
 .library {
-
-padding: 30px 0 0 0;
-width: 90%;
-max-width: 1200px;
-overflow: hidden;
-margin: auto;
+  padding: 30px 0 0 0;
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
 }
-.library li{
-    padding: 13px;
+.library li {
+  padding: 13px;
 }
-.library ul{
-    margin: 21px 61px 61px 61px;
+.library ul {
+  margin: 21px 61px 61px 61px;
 }
- /* .temph2{
+/* .temph2{
     padding: 0 0 10px 0;
  } */
- .library h1{
-     text-align: center;
- }
- .library a{
-     color: #a6192e;
- }
- .library p{
-    margin: 21px 61px 61px 73px;
- }
- .span1{
-     font-weight:bolder ;
- }
- table{
-     width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
-
- }
- table td{
-    border: 1px solid black;
-    padding: 0 0 0 5px;
-    background-color: #f9f9f9;
- }
- table th{
-    border: 1px solid black;
-    background-color: #ffc72c;
- }
+.library h1 {
+  text-align: center;
+}
+.library a {
+  color: #a6192e;
+}
+.library p {
+  margin: 21px 61px 61px 73px;
+}
+.span1 {
+  font-weight: bolder;
+}
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table td {
+  border: 1px solid black;
+  padding: 0 0 0 5px;
+  background-color: #f9f9f9;
+}
+table th {
+  border: 1px solid black;
+  background-color: #ffc72c;
+}

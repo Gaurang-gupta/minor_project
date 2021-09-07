@@ -8,7 +8,7 @@ function Dropdown() {
                 <Link to="/contacts" className="link">Question Papers</Link>
             </div>
             <div className="dropDown__links">
-                <Link to="/contacts" className="link">Time Table</Link>
+                <Link to="/contacts" className="link">Time Table & Calender</Link>
             </div>
             <div className="dropDown__links">
                 <Link to="/library" className="link">E-Library</Link>

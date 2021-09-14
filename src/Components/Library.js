@@ -1,9 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "./Library.css"
+import Topcase from './Topcase'
 function Library() {
     return (
+        <>
+        <Topcase heading={"E-Library"} content={"leffvbiuuvbpi iadnnwv9 iancoinc0wbrv kdcodac0inv vnoINV0W9V NOIVN0AV  AIDVN0V  V dvijd0ivjd wvo DNli dvodvniWDV98WBVI NIWDIVO9BWRV"}/>
         <div className="library">
+            
             <h1>E - Library</h1>
             <ul className="library__list">
                 <li>
@@ -61,6 +65,7 @@ function Library() {
             </table>
             </div>
         </div>
+        </>
     )
 }
 

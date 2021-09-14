@@ -1,2 +1,9 @@
 .app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__util {
+  min-height: 100vh;
+  padding-bottom: 20px;
 }

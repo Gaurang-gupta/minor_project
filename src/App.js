@@ -2,13 +2,18 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Library from './Components/Library';
+// <<<<<<< main
 import Feeform from './Components/Feeform';
 
+// =======
+import Footer from './Components/Footer';
+// >>>>>>> main
 function App() {
   return (
     <div className="app">
       <Router>
         <Navbar/>
+        <div className="app__util">
         <Switch>
           <Route path="/library">
             <Library/>
@@ -27,6 +32,8 @@ function App() {
             <h1>I am home</h1>
           </Route>
         </Switch>
+        </div>
+        <Footer/>
       </Router>
     </div>
   );

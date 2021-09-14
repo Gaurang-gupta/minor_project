@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import "./Library.css"
 import Topcase from './Topcase'
 function Library() {
@@ -11,20 +10,20 @@ function Library() {
             <h1>E - Library</h1>
             <ul className="library__list">
                 <li>
-                    <Link to="https://www.nitj.ac.in//nitj_files/E-Library/fairuse.pdf">
+                    <a href="https://www.nitj.ac.in//nitj_files/E-Library/fairuse.pdf">
                         Fair use of E - resources: Guidelines and Usage Policy
-                    </Link>
+                    </a>
                 </li>
                 <li>
                     {/* <h2 className="temph2" >E -textbook access credentials and lists of books</h2> */}
-                    <Link to="https://www.nitj.ac.in/nitj_files/links/E-books_Access_credentiasls_45203.pdf">
+                    <a href="https://www.nitj.ac.in/nitj_files/links/E-books_Access_credentiasls_45203.pdf">
                     Access Credentials E-Books
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="https://www.nitj.ac.in/nitj_files/links/NDL_Registration_62490.pdf">
+                    <a href="https://www.nitj.ac.in/nitj_files/links/NDL_Registration_62490.pdf">
                         National Digital Library 
-                    </Link>
+                    </a>
                 </li>
             </ul>
             <p className="library__timings">

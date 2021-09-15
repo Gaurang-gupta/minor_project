@@ -10,7 +10,7 @@ function Dropdown(props) {
             {/* Question Papers */}
 
             {/* <div className="dropDown__links">
-                <Link to="/contacts" className="link">Time Table</Link>
+                <Link to="/contacts" className="link">Time Table & Calender</Link>
             </div>
             <div className="dropDown__links">
                 <Link to="/library" className="link">E-Library</Link>
@@ -19,7 +19,7 @@ function Dropdown(props) {
                 <Link to="/contacts" className="link">Quick Links</Link>
             </div>
             <div className="dropDown__links">
-                <Link to="/contacts" className="link">Forms and Fee Links</Link>
+                <Link to="/feeform" className="link">Forms and Fee Links</Link>
             </div>
             <div className="dropDown__links">
                 <Link to="/softwares" className="link">Softwares</Link>

@@ -1,8 +1,12 @@
 import React from 'react'
 import "./Library.css"
+import Topcase from './Topcase'
 function Library() {
     return (
+        <>
+        <Topcase heading={"E-Library"} content={"Detailed below are the websites of E-Books available for the Institute:"}/>
         <div className="library">
+            
             <h1>E - Library</h1>
             <ul className="library__list">
                 <li>
@@ -60,6 +64,7 @@ function Library() {
             </table>
             </div>
         </div>
+        </>
     )
 }
 

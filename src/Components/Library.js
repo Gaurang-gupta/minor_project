@@ -4,7 +4,7 @@ import Topcase from './Topcase'
 function Library() {
     return (
         <>
-        <Topcase heading={"E-Library"} content={"leffvbiuuvbpi iadnnwv9 iancoinc0wbrv kdcodac0inv vnoINV0W9V NOIVN0AV  AIDVN0V  V dvijd0ivjd wvo DNli dvodvniWDV98WBVI NIWDIVO9BWRV"}/>
+        <Topcase heading={"E-Library"} content={"Detailed below are the websites of E-Books available for the Institute:"}/>
         <div className="library">
             
             <h1>E - Library</h1>

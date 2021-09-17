@@ -7,26 +7,6 @@ function Dropdown(props) {
             <div className="dropDown__links">
                 <Link to={props.link} className="link">{props.title}</Link>
             </div>
-            {/* Question Papers */}
-
-            {/* <div className="dropDown__links">
-                <Link to="/contacts" className="link">Time Table & Calender</Link>
-            </div>
-            <div className="dropDown__links">
-                <Link to="/library" className="link">E-Library</Link>
-            </div>
-            <div className="dropDown__links">
-                <Link to="/contacts" className="link">Quick Links</Link>
-            </div>
-            <div className="dropDown__links">
-                <Link to="/feeform" className="link">Forms and Fee Links</Link>
-            </div>
-            <div className="dropDown__links">
-                <Link to="/softwares" className="link">Softwares</Link>
-            </div>
-            <div className="dropDown__links">
-                <Link to="/emergency-contacts" className="link">Emergency Contacts</Link>
-            </div> */}
         </div>
     )
 }

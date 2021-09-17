@@ -14,8 +14,7 @@ function Library() {
                         Fair use of E - resources: Guidelines and Usage Policy
                     </a>
                 </li>
-                <li>
-                    {/* <h2 className="temph2" >E -textbook access credentials and lists of books</h2> */}
+                <li>]
                     <a href="https://www.nitj.ac.in/nitj_files/links/E-books_Access_credentiasls_45203.pdf">
                     Access Credentials E-Books
                     </a>

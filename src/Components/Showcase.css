@@ -1,31 +1,41 @@
-.showcase{
-width: 100%;
-height: 320px;
-/* background-image: url(https://www.oberlin.edu/sites/default/files/styles/width_1600/public/content/home/header-video-cover-image/aerial-campus-wbradford-40.jpg?itok=OPGqFteY); */
+.showcase {
+  width: 100%;
+  height: 320px;
+  /* background-image: url(https://www.oberlin.edu/sites/default/files/styles/width_1600/public/content/home/header-video-cover-image/aerial-campus-wbradford-40.jpg?itok=OPGqFteY); */
 }
-.para{
-    color: white;
-    font-size: 24px;
-   
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.pheading{
-    color: #fff;
-    position: absolute;
-    background: #ea0023;
-    padding: 0.5rem 1rem 0.75rem 1rem;
-    top: 362px;
-   
-}
-.showcase  img{
-    height: 100%;
-width: 100%;
 
-object-fit: cover;
+.para {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-object-position: center;
+.pheading {
+  color: #fff;
+  position: absolute;
+  background: #ea0023;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  top: 360px;
+}
+
+.showcase img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 576px) {
+  .pheading {
+    top: 300px;
+  }
+}
+
+@media (max-width: 390px) {
+  .pheading {
+    top: 250px;
+  }
 }

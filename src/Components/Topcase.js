@@ -5,10 +5,12 @@ function Topcase({heading,content}) {
         <div className="topdiv">
             <br/>
             <div className="container"> 
-
-           <div className="headingdiv">    <h1>{heading}</h1>
-           </div> 
-           <div className="contentdiv"> <p>{content}</p></div>
+                <div className="headingdiv">
+                    <h1>{heading}</h1>
+                </div> 
+                <div className="contentdiv"> 
+                    <p>{content}</p>
+                </div>
             </div>
         </div>
     )

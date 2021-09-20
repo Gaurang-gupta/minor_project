@@ -23,7 +23,6 @@ function App() {
           <Route path="/feeform">
             <Feeform/>
           </Route>
-
           <Route path="/contacts">
             <h1>I am contacts</h1>
           </Route>

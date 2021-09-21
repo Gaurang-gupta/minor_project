@@ -5,6 +5,7 @@ import Library from './Components/Library';
 // <<<<<<< main
 import Feeform from './Components/Feeform';
 import Showcase from './Components/Showcase';
+import Timetable from './Components/Timetable';
 
 // =======
 import Footer from './Components/Footer';
@@ -14,7 +15,7 @@ function App() {
     <div className="app">
       <Router>
         <Navbar/>
-        <Showcase/>
+        
         <div className="app__util">
         <Switch>
           <Route path="/library">
@@ -23,6 +24,9 @@ function App() {
           <Route path="/feeform">
             <Feeform/>
           </Route>
+          <Route path="/Timetable">
+            <Timetable/>
+          </Route>
           <Route path="/contacts">
             <h1>I am contacts</h1>
           </Route>
@@ -30,6 +34,7 @@ function App() {
             <h1>Softwares</h1>
           </Route>
           <Route path="/">
+          <Showcase/>
             <h1>I am home</h1>
           </Route>
         </Switch>

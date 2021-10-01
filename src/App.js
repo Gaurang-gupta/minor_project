@@ -6,6 +6,7 @@ import Library from './Components/Library';
 import Feeform from './Components/Feeform';
 import Showcase from './Components/Showcase';
 import Timetable from './Components/Timetable';
+import Home from './Components/Home';
 
 // =======
 import Footer from './Components/Footer';
@@ -35,7 +36,8 @@ function App() {
           </Route>
           <Route path="/">
           <Showcase/>
-            <h1>I am home</h1>
+          <Home/>
+            
           </Route>
         </Switch>
         </div>

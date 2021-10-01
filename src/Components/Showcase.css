@@ -31,11 +31,20 @@
 @media (max-width: 576px) {
   .pheading {
     top: 300px;
+    margin-top: 50px;
   }
 }
 
 @media (max-width: 390px) {
   .pheading {
     top: 250px;
+    margin-top: 50px;
   }
 }
+
+/* @media (max-width: 320px) {
+  .pheading {
+    top: 250px;
+    margin-top: 60px;
+  }
+} */

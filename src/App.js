@@ -7,7 +7,7 @@ import Feeform from './Components/Feeform';
 import Showcase from './Components/Showcase';
 import Timetable from './Components/Timetable';
 import Home from './Components/Home';
-
+import Contacts from './Components/Contacts'
 // =======
 import Footer from './Components/Footer';
 // >>>>>>> main
@@ -29,7 +29,8 @@ function App() {
             <Timetable/>
           </Route>
           <Route path="/contacts">
-            <h1>I am contacts</h1>
+            <Contacts/>
+          
           </Route>
           <Route path="/softwares">
             <h1>Softwares</h1>

@@ -39,9 +39,9 @@ function Navbar() {
                             <li onClick={dropDownChangeHandler}>
                                 <Dropdown link="/library" title="E - Library"/>
                             </li>
-                            <li onClick={dropDownChangeHandler}>
+                            {/* <li onClick={dropDownChangeHandler}>
                                 <Dropdown link="/contacts" title="Quick Links"/>
-                            </li>    
+                            </li>     */}
                             <li onClick={dropDownChangeHandler}>
                                 <Dropdown link="/feeform" title="Forms and Fee Links"/>
                             </li>

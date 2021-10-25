@@ -1,0 +1,26 @@
+.branch__name {
+  max-width: 65%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.branch__name__heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #a6192e;
+}
+
+.branch__name__list {
+  list-style: none;
+}
+
+.branch__name__software__heading {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #a6192e;
+}
+
+.branch__name__listItem {
+  padding-bottom: 15px;
+}

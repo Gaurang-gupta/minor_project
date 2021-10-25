@@ -30,7 +30,7 @@ function Contacts() {
     
     return (
         <>
-        <Topcase heading={"Emergency Contacts"} content={"Detailed below are the websites of E-Books available for the Institute:"}/>
+        <Topcase heading={"Emergency Contacts"} content={"Below are the enrgency contacts of the Institute:"}/>
         <div className="contacts">
             <div onClick={clickHostel} className="contacts__row" id={!hostel && "row__one"}>
                 <div className={hostel ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Hostels</span></div>
@@ -40,7 +40,6 @@ function Contacts() {
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
-                        <li>5</li>
                         <li>5</li>
                     </ul>
                 </div>
@@ -54,7 +53,6 @@ function Contacts() {
                         <li>3</li>
                         <li>4</li>
                         <li>5</li>
-                        <li>5</li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +64,6 @@ function Contacts() {
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
-                        <li>5</li>
                         <li>5</li>
                     </ul>
                 </div>
@@ -80,7 +77,6 @@ function Contacts() {
                         <li>3</li>
                         <li>4</li>
                         <li>5</li>
-                        <li>5</li>
                     </ul>
                 </div>
             </div>
@@ -92,7 +88,6 @@ function Contacts() {
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
-                        <li>5</li>
                         <li>5</li>
                     </ul>
                 </div>

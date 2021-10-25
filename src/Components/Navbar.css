@@ -40,6 +40,7 @@
 .navbar__title {
   font-size: 30px;
   font-weight: 600;
+  color: white !important;
 }
 
 .navbar__listItem {
@@ -48,6 +49,10 @@
 
 .navbar__listItem:hover {
   cursor: pointer;
+}
+
+.navbar__contact {
+  color: white !important;
 }
 
 .dropDown__nav {

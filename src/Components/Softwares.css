@@ -1,0 +1,15 @@
+.softwares {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.softwares__link {
+  padding: 5px 0px;
+  padding-left: 5px;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.softwares__link:hover {
+  background-color: whitesmoke;
+}

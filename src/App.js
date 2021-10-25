@@ -8,15 +8,18 @@ import Showcase from './Components/Showcase';
 import Timetable from './Components/Timetable';
 import Home from './Components/Home';
 import Contacts from './Components/Contacts'
+import QuestionPapers from './Components/QuestionPapers';
+import QuestionPapersOfBranches from './Components/QuestionPapersOfBranches';
+import Softwares from './Components/Softwares';
 // =======
 import Footer from './Components/Footer';
+import SoftwaresOfBranches from './Components/SoftwaresOfBranches';
 // >>>>>>> main
 function App() {
   return (
     <div className="app">
       <Router>
         <Navbar/>
-        
         <div className="app__util">
         <Switch>
           <Route path="/library">
@@ -30,15 +33,28 @@ function App() {
           </Route>
           <Route path="/contacts">
             <Contacts/>
-          
+          </Route>
+          <Route path="/softwares/:id">
+            {()=>(
+            <SoftwaresOfBranches branch={window.location.pathname}/>
+            )
+            }
           </Route>
           <Route path="/softwares">
-            <h1>Softwares</h1>
+            <Softwares/>
+          </Route>
+          <Route path="/questionPapers/:id">
+            {()=>(
+            <QuestionPapersOfBranches branch={window.location.pathname}/>
+            )
+            }
+          </Route>
+          <Route path="/questionPapers">
+            <QuestionPapers/>
           </Route>
           <Route path="/">
-          <Showcase/>
-          <Home/>
-            
+            <Showcase/>
+            <Home/>
           </Route>
         </Switch>
         </div>

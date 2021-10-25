@@ -17,8 +17,7 @@ function Home() {
                     <div className="box1">
                         <h3>Question papers</h3>
                         <p>Here you can find available previous year papers of 10 years.</p>
-                       
-                            <button className="cstmbtn1"> Learn More </button>
+                        <button className="cstmbtn1"> Learn More </button>
                        
                     </div>
                     <div className="box2">

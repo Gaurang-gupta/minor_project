@@ -1,22 +1,25 @@
-.about {
-  margin: 100px auto;
-  text-align: center;
+.about{
+    margin: 100px auto;
+text-align: center;
 
   width: 90%;
   max-width: 1200px;
   overflow: hidden;
+  
 }
-.about h1 {
-  margin-bottom: 20px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #a6192e;
+.about h1{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #a6192e;
 }
-.about h2 {
-  margin-bottom: 30px;
+.about h2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 26px;
 }
-.about p {
-  color: #575757;
+.about p{
+    color: #575757;
 }
 /* @media only screen and (max-width : 960px) {
     .containerdiv {
@@ -28,81 +31,123 @@
         width: 320px;
     }
 } */
-.cstmbtn1 {
-  background-color: #5bc4be;
-  color: black;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 26px 0px;
-  cursor: pointer;
+.cstmbtn1{
+    background-color: #5bc4be;
+    color: black;
+    padding: 10px 38px;
+    border-radius: 1px;
+    margin: 26px 0px;
+
 }
-.cstmbtn2 {
-  background-color: #a6192e;
-  color: white;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 26px 0px;
-  cursor: pointer;
+.cstmbtn1:hover{
+    font-size: 14px;
 }
-.cstmbtn3 {
-  background-color: chartreuse;
-  color: black;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 26px 0px;
-  cursor: pointer;
+.cstmbtn2{
+    background-color: #a6192e;
+    color: white;
+    padding: 10px 38px;
+    border-radius: 1px;
+    margin: 26px 0px;
+
 }
-.cstmbtn4 {
-  background-color: #22a1c4;
-  color: black;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 26px 0px;
-  cursor: pointer;
+.cstmbtn2:hover{
+    font-size: 14px;
 }
-.cstmbtn5 {
-  background-color: #f58220;
-  color: black;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 6px 0px;
-  cursor: pointer;
+.cstmbtn3{
+    background-color: chartreuse;
+color: black;
+padding: 10px 38px;
+border-radius: 1px;
+margin: 26px 0px;
+
 }
-.cstmbtn6 {
-  background-color: black;
-  color: white;
-  padding: 10px 38px;
-  border-radius: 1px;
-  margin: 26px 0px;
-  cursor: pointer;
+.cstmbtn3:hover{
+    font-size: 14px;
 }
-.contentdiv {
-  margin: 100px auto;
-  width: 70%;
-  max-width: 1200px;
-  overflow: hidden;
+.cstmbtn4{
+    background-color: #22a1c4;
+    color: black;
+    padding: 10px 38px;
+    border-radius: 1px;
+    margin: 26px 0px;
 }
-.contentdiv h1 {
-  text-align: center;
-  margin-bottom: 40px;
+.cstmbtn4:hover{
+    font-size: 14px;
 }
-.contentdiv p {
-  color: #575757;
+.cstmbtn5{
+    background-color: #f58220;
+    color: black;
+    padding: 10px 38px;
+    border-radius: 1px;
+    margin: 26px 0px;
+
 }
-.gridbox {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 12%;
-  row-gap: 12%;
-  grid-row-gap: 100px;
+.cstmbtn5:hover{
+    font-size: 14px;
 }
-.gridbox div {
-  border: 1px solid black;
-  text-align: center;
-  padding: 10px;
-  height: 200px;
-  width: 216px;
+.cstmbtn6{
+    background-color: black;
+    color: white;
+    padding: 10px 38px;
+    border-radius: 1px;
+    margin: 26px 0px;
+
 }
-.gridbox p {
-  margin-top: 20px;
+.cstmbtn6:hover{
+    font-size: 14px;
 }
+.contentdata{
+    margin: 100px auto;
+      width: 70%;
+      max-width: 1200px;
+      overflow: hidden;
+      
+}
+.contentdata h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contentdata p{
+    color: #575757;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 12%;
+        /* row-gap: 12%; */
+    grid-row-gap: 100px;
+}
+.gridbox div{
+    border: 1px solid black;
+text-align: center;
+padding: 10px;
+
+}
+.gridbox p{
+    margin-top: 20px;
+}
+.gridbox a{
+    color: white;
+text-decoration: none;
+font-weight: bold;
+}
+@media (max-width: 850px) {
+    .gridbox{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 12%;
+            /* row-gap: 12%; */
+        grid-row-gap: 100px;
+    }
+    }
+  
+    @media (max-width: 600px) {
+        .gridbox{
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 12%;
+                /* row-gap: 12%; */
+            grid-row-gap: 100px;
+        }
+        }
+      

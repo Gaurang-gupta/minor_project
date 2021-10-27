@@ -6,6 +6,11 @@ import EE from '../softwares/EE';
 import IPE from '../softwares/IPE';
 import ME from '../softwares/ME';
 import ICE from '../softwares/ICE';
+import TE from '../softwares/TE';
+import CE from '../softwares/CE';
+import CSE from '../softwares/CSE';
+import IT from '../softwares/IT';
+import BT from '../softwares/BT';
 function SoftwaresOfBranches({ branch }) {
     const br = branch.substring(11, branch.length);
     if (br === 'ECE') {
@@ -36,6 +41,31 @@ function SoftwaresOfBranches({ branch }) {
     else if (br === "ICE") {
         return (
             <ICE branch={branches[br]} />
+        )
+    }
+    else if (br === "TE") {
+        return (
+            <TE branch={branches[br]} />
+        )
+    }
+    else if (br === "CE") {
+        return (
+            <CE branch={branches[br]} />
+        )
+    }
+    else if (br === "CSE") {
+        return (
+            <CSE branch={branches[br]} />
+        )
+    }
+    else if (br === "IT") {
+        return (
+            <IT branch={branches[br]} />
+        )
+    }
+    else {
+        return (
+            <BT branch={branches[br]} />
         )
     }
 }

@@ -14,9 +14,9 @@ function Home() {
                 <h2 className="second-head">
                     Muskuraiye Aap NITJ m hai
                 </h2>
-                <p className="fpara" style={{fontSize: "19px"}}>
+                <p className="fpara" style={{ fontSize: "19px" }}>
                     {/* We at SWP(Student welfare portal) ensures that all your difficulties related to academics,  hostels, medical care get resolved. We are a student body consisting of student representatives. The solely purpose of establishing this portal is to get rid of the chaos and hustle in searching the required information and saving your precious time. */}
-                BSW's primary objective is identifying the issues faced by the student community related to academics, social life, mental health and career, and address them through this portal. We are a student body consisting of student representatives. </p>
+                    BSW's primary objective is identifying the issues faced by the student community related to academics, social life, mental health and career, and address them through this portal. We are a student body consisting of student representatives. </p>
             </div>
             <div className="contentdata">
                 <h1>Where to find what?</h1>
@@ -28,7 +28,7 @@ function Home() {
                         <p>Here you can find available previous year papers of 10 years.</p>
 
                         <button className="cstmbtn1">
-                            <Link to="/contacts"> Learn More</Link> </button>
+                            <Link to="/questionPapers"> Learn More</Link> </button>
 
                     </div>
 
@@ -50,7 +50,7 @@ function Home() {
                     <div className="box5">
                         <h3>Softwares</h3>
                         <p>Here you can find software our college purchased and complete guide to install them. </p>
-                        <button className="cstmbtn5"> <Link to="/contacts"> Learn More</Link> </button>
+                        <button className="cstmbtn5"> <Link to="/softwares"> Learn More</Link> </button>
                     </div>
                     <div className="box6">
                         <h3>Contacts</h3>

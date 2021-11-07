@@ -1,0 +1,14 @@
+.questionPapersSidebar {
+  width: 30%;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+@media (min-width: 1100px) {
+  .questionPapersSidebar {
+    width: 23%;
+  }
+}

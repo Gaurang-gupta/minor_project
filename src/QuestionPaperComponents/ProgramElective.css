@@ -1,0 +1,27 @@
+.programElective__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  width: 98%;
+  margin: auto;
+  row-gap: 10px;
+}
+
+.programElective__heading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  color: #a6192e;
+}
+
+@media (max-width: 1000px) {
+  .programElective__container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .programElective__container {
+    grid-template-columns: auto;
+  }
+}

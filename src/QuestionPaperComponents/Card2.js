@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "./Card.css"
-function Card({ heading, subjects, isProgramElective }) {
+function Card2({ heading, subjects }) {
     return (
         <div className="card">
             <div className="card__headingContainer">
@@ -11,16 +10,13 @@ function Card({ heading, subjects, isProgramElective }) {
                 <ul className="card__list">
                     {subjects.map((subject, index) => (
                         <li className="card__listItem" key={index}>
-                            <Link to={`/questionPapers/${heading}/departmentElective/${subject}`}>{subject}</Link>
+                            {subject}
                         </li>
                     ))}
                 </ul>
-                {isProgramElective &&
-                    <Link to={`/questionPapers/${heading}/departmentElective`} className="card__elective">Program Electives</Link>
-                }
             </div>
         </div>
     )
 }
 
-export default Card
+export default Card2

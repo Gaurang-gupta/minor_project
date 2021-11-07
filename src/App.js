@@ -14,6 +14,7 @@ import Softwares from './Components/Softwares';
 import Footer from './Components/Footer';
 import SoftwaresOfBranches from './Components/SoftwaresOfBranches';
 import ProgramElective from './QuestionPaperComponents/ProgramElective';
+import QuestionPapersPage from './QuestionPaperComponents/QuestionPapersPage';
 // >>>>>>> main
 function App() {
   return (
@@ -49,7 +50,13 @@ function App() {
             )
             }
           </Route> */}
-            <Route path="/questionPapers/:id/openElective">
+            <Route path="/questionPapers/:id/departmentElective/:id">
+              {() => (
+                <QuestionPapersPage head={window.location.pathname} />
+              )
+              }
+            </Route>
+            <Route path="/questionPapers/:id/departmentElective">
               {() => (
                 <ProgramElective branch={window.location.pathname} />
               )

@@ -1,4 +1,4 @@
-.contacts__row {
+/* .contacts__row {
   display: flex;
   border: 1px solid black;
   margin: 0 auto;
@@ -79,4 +79,38 @@ ul {
   .contacts__row {
     max-width: 600px;
   }
+} */
+.emergency {
+  padding: 30px 0 0 0;
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+}
+.emergency li {
+  padding: 13px;
+  border: 1px solid blanchedalmond;
+}
+.emergency ul {
+  margin: 21px 61px 61px 61px;
+}
+/* .temph2{
+    padding: 0 0 10px 0;
+ } */
+.emergency h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.emergency a {
+  color: #a6192e;
+}
+.emergency p{
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.emergency h2{
+  margin-left: 60px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }

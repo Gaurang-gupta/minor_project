@@ -229,11 +229,11 @@ function Contacts() {
                                 </tr>
                                 <tr>
                                     <td className="apply">  
-                                    Boys Hostel - 01  </td>
+                                    Boys Hostel - 03  </td>
                                     <td className="apply">  
-                                       <tr>Mr. Umesh Kumar</tr>
-                                       <tr>Mr. Vinod Kumar</tr>
-                                       <tr>Mr. Satya Dew</tr> 
+                                       <tr>Mr. Krishankant Tripathi</tr>
+                                       <tr>Mr. Vattan Singh</tr>
+                                       <tr>Mr. Prince Tiwari</tr> 
                                        </td>
                                     <td className="apply">  
                                     <tr>Clerk</tr>
@@ -241,22 +241,22 @@ function Contacts() {
                                     <tr>Attendant</tr>
                                      </td>
                                      <td className="apply">  
-                                    <tr>9023850798</tr>
-                                    <tr>9779946937</tr>
-                                    <tr>8968550509</tr>
+                                    <tr>9779945241</tr>
+                                    <tr>9646799284</tr>
+                                    <tr>8146199736</tr>
                                      </td>
                                      <td className="apply">
-                                     hwb1@nitj.ac.in
+                                     hwb3@nitj.ac.in
                                      </td>
                                    
                                 </tr>
                                 <tr>
                                     <td className="apply">  
-                                    Boys Hostel - 01  </td>
+                                    Boys Hostel - 04</td>
                                     <td className="apply">  
-                                       <tr>Mr. Umesh Kumar</tr>
-                                       <tr>Mr. Vinod Kumar</tr>
-                                       <tr>Mr. Satya Dew</tr> 
+                                       <tr>Mr. Deepu Kumar</tr>
+                                       <tr>Mr. Sandeep Kumar</tr>
+                                       <tr>Mr. Dharmendra Kumar</tr> 
                                        </td>
                                     <td className="apply">  
                                     <tr>Clerk</tr>
@@ -264,35 +264,296 @@ function Contacts() {
                                     <tr>Attendant</tr>
                                      </td>
                                      <td className="apply">  
-                                    <tr>9023850798</tr>
-                                    <tr>9779946937</tr>
-                                    <tr>8968550509</tr>
+                                    <tr>9463739424</tr>
+                                    <tr>9872244638</tr>
+                                    <tr>9780685163</tr>
                                      </td>
                                      <td className="apply">
-                                     hwb1@nitj.ac.in
+                                     hwb4@nitj.ac.in
                                      </td>
                                    
                                 </tr>
                                 <tr>
                                     <td className="apply">  
-                                    Boys Hostel - 01  </td>
+                                    Boys Hostel - 05</td>
                                     <td className="apply">  
-                                       <tr>Mr. Umesh Kumar</tr>
-                                       <tr>Mr. Vinod Kumar</tr>
-                                       <tr>Mr. Satya Dew</tr> 
+                                       <tr>Mr. Rakesh Kumar</tr>
+                                       <tr>	Mr. Uttam Chand</tr>
+                                       <tr>Mr. Kishori Lal</tr> 
+                                       <tr>Mr. Prakash Mishra</tr>
                                        </td>
                                     <td className="apply">  
                                     <tr>Clerk</tr>
                                     <tr>Attendant</tr>
                                     <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
                                      </td>
                                      <td className="apply">  
-                                    <tr>9023850798</tr>
-                                    <tr>9779946937</tr>
-                                    <tr>8968550509</tr>
+                                    <tr>9463535975</tr>
+                                    <tr>9876513694</tr>
+                                    <tr>7508535584</tr>
+                                    <tr>7508248563</tr>
                                      </td>
                                      <td className="apply">
-                                     hwb1@nitj.ac.in
+                                     hwb5@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Boys Hostel - 06</td>
+                                    <td className="apply">  
+                                       <tr>	Mr. Dinesh Prasad</tr>
+                                       <tr>Mr. Nirmal Mahli</tr>
+                                       <tr>Mr. Sukhpreet Singh</tr> 
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                    <tr>8968061736</tr>
+                                    <tr>7307928269</tr>
+                                    <tr>9878022970</tr>
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     hwb6@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Boys Hostel - 07 & 7E</td>
+                                    <td className="apply">  
+                                       <tr>Mr. Ravikant Tripathi</tr>
+                                       <tr>	Mr. Rakesh Kumar</tr>
+                                       <tr>Mr. Ram Bhawan</tr> 
+                                       <tr>Mr. Raghubir Singh</tr> 
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                    <tr>7508771834</tr>
+                                    <tr>9779980361</tr>
+                                    <tr>9915567713</tr>
+                                    <tr>7529881624</tr>
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     hwb7@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Mega Boys Hostel: Block - A</td>
+                                    <td className="apply">  
+                                       <tr>Mr. Manish K. Chaturvedi</tr>
+                                       <tr>	Mr. Joga Singh</tr>
+                                       <tr>Mr. Tasan Kumar</tr> 
+                                       <tr>Mr. Satnam Yadav</tr> 
+                                       <tr>Mr. Sunil Sharma</tr> 
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                    <tr>7508511551</tr>
+                                    <tr>7087946940</tr>
+                                    <tr>8437857489</tr>
+                                    <tr>7973257236</tr>
+                                    <tr>8699411714</tr>
+
+                                     </td>
+                                     <td className="apply">
+                                     mbha@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Mega Boys Hostel: Block - B</td>
+                                    <td className="apply">  
+                                    <tr>Mr. R. N. Chaturvedi</tr>
+                                    <tr>Mr. Rajesh Kumar</tr>
+                                    <tr>Mr. Awdesh Kumar</tr>
+                                    <tr>Mr. Ritesh Kumar</tr>
+                                    <tr>Mr. Dinesh Chandra Roy</tr>
+ 
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                     <tr>9464886034</tr>
+                                     <tr>9878329873</tr>
+                                     <tr>9872548026</tr>
+                                     <tr>8219347118</tr>
+                                     <tr>8054549808</tr>
+
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     mbhb@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Mega Boys Hostel: Block - F</td>
+                                    <td className="apply">  
+                                    <tr>Mr. Ashish Kumar</tr>
+                                    <tr>Mr. Kumod Kumar</tr>
+                                    <tr>Mr. Baljit Singh</tr>
+                                    <tr>Mr. Keshav Kumar</tr>
+
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                     <tr>7307236134</tr>
+                                     <tr>9876782935</tr>
+                                     <tr>8264416270</tr>
+                                     <tr>9988903662</tr>
+
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     mbhf@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Girls Hostel - 01</td>
+                                    <td className="apply">  
+                                    <tr>Ms. Amarjeet Kaur</tr>
+                                    <tr>Ms.Kamaljeet Kaur</tr>
+                                    <tr>Ms. Rajani Devi</tr>
+                                    <tr>Ms. Sunita Devi</tr>
+                                    <tr>Ms. Anita Devi</tr>
+
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                     <tr>7888956947</tr>
+                                     <tr>9876135284</tr>
+                                     <tr>9464883084</tr>
+                                     <tr>8437486900</tr>
+                                     <tr>9815637984</tr>
+
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     ohwg1@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                    Girls Hostel - 02</td>
+                                    <td className="apply">  
+                                    <tr>Ms. Monu Sharma</tr>
+                                    <tr>Ms. Neelam</tr>
+                                    <tr>Ms. Shubham Devi</tr>
+                                    <tr>Ms. Chhinder</tr>
+                                    <tr>Ms. Dimple</tr>
+
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                     <tr>9464012062</tr>
+                                     <tr> 6280443276</tr>
+                                     <tr> 9465236856</tr>
+                                     <tr> 9417616890</tr>
+                                     <tr> 7626821375</tr>
+
+
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     ohwg2@nitj.ac.in
+                                     </td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td className="apply">  
+                                   Mega Girls Hostel</td>
+                                    <td className="apply">  
+                                    <tr>Ms. Neha</tr>
+                                    <tr>Ms. Reeta Kumari</tr>
+                                    <tr>Ms. Gurmeet Kaur</tr>
+                                    <tr>Ms. Vidya</tr>
+                                    <tr>Ms. Usha Devi</tr>
+
+
+                                       
+                                       </td>
+                                    <td className="apply">  
+                                    <tr>Clerk</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    <tr>Attendant</tr>
+                                    
+                                     </td>
+                                     <td className="apply">  
+                                     <tr>8146017894</tr>
+                                     <tr>9478744809</tr>
+                                     <tr>9876304506</tr>
+                                     <tr>9872325092</tr>
+                                     <tr>9878130512</tr>
+
+
+                                    
+                                     </td>
+                                     <td className="apply">
+                                     mhg@nitj.ac.in
                                      </td>
                                    
                                 </tr>

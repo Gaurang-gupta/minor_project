@@ -14,16 +14,13 @@ function QuestionPapers() {
     const CE = ["CHPC-201", "CHPC-203", "CHPC-205", "CHPC-207", "CHPC-209", "CHPC-221", "CHPC-223", "CHPC-202", "CHPC-204", "CHPC-206", "CHPC-208", "CHPC-210", "CHPC-222", "CHPC-224", "CHPC-301", "CHPC-303", "CHPC-305", "CHPC-307", "CHPC-321", "CHPC-323", "CHCI-300", "HMCI-202", "CHPC-302", "CHPC-304", "CHPC-306", "CHPC-322", "CHPC-324", "CHCI-300", "CHPC-401", "CHPC-403", "CHPC-405", "CHPC-421", "CHPC-423", "CHCI-425", "CHCI-400", "CHPC-402", "CHPC-422", "CHCI-424", "CHCI-400"]; // chemical (ch)
     const EE = ["EEPC-201", "ICPC-251", "ECPC-251", "EEPC-203", "ECPC-254", "ICPC-271", "EEPC-225", "EEPC-202", "EEPC-204", "EEPC-206", "EEPC-222", "EEPC-224", "MACI-206", "HMCI-201", "EEPC-301", "EEPC-303", "EEPC-305", "EEPC-307", "EEPC-309", "EEPC-323", "EEPC-325", "EECI-300", "EEPC-321", "EEPC-302", "EEPC-304", "ICPC-352", "CSPC-213", "EEPC-322", "EEPC-324", "EECI-300", "EEPC-401", "EEPC-403", "EEPC-421", "EECI-400", "EECI-350", "EEPC-402", "EEPC-404", "EEPC-406", "EEPC-426", "EECI-400", "EECI-420"];
     const BT = ["BTPC-201", "BTPC-203", "BTPC-205", "BTPC-207", "BTPC-209", "BTPC-211", "MACI-204", "CHPC-281", "BTPC-202", "BTPC-204", "BTPC-206", "BTPC-210", "BTPC-212", "CSPC-203", "CSPC-223", "HMCI-202", "BTPC-301", "BTPC-303", "BTPC-305", "BTPC-307", "BTPC-309", "BTPC-311", "BTPC-313", "BTPC-315", "BTPC-317", "BTCI-301", "BTPC-302", "BTPC-304", "BTPC-306", "BTPC-308", "BTPC-310", "BTCI-302", "BTPC-401", "BTPC-403", "BTCI-300", "BTCI-400", "CHPC-481", "BTPC-402", "BTCI-402", "BTCI-400"];
-    const openElective = ["BTOE-401", "CHOE-405", "CEOE-472", "CSOE-003", "ECPC/ECOE-469", "ICOE-472", "IPOE-421", "IPOE-422", "PHOE-301", "TTOE-461"];
-    const firstAndSecond = ["CYCI-102", "MACI-101", "ICCI-101", "HMCI-102", "IPCI-101", "IPCI-101", "IPCI-102", "HMCI-103", "CYCI-103", "CYCI-104", "PHCI-103", "CSCI-103", "CSCI-101", "MACI-102", "HMCI-101", "MECI-102", "PHCI-104", "CSCI-102"];
+    const firstAndSecond = ["PHCI-101", "CSCI-101", "MACI-101", "HMCI-101", "MECI-102", "PHCI-102", "CSCI-102", "CYCI-102", "MACI-101", "HMCI-102", "IPCI-101", "IPCI-102", "HMCI-103", "CYCI-103", "CYCI-104", "CYCI-101", "MACI-102", "HMCI-102", "PHCI-103", "PHCI-104", "ECCI-101", "CECI-101", "MECI-101", "CSCI-103", "ICCI-101"];
+    const openElective = ["BTOE-302", "BTOE-401", "BTOE-403", "BTOE-402", "BTOE-404", "CHOE-401", "CHOE-402", "CHOE-403", "CHOE-404", "CHOE-405", "CHOE-406", "CHOE-407", "CHOE-408", "CHOE-409", "CHOE-410", "CEOE-370", "CEOE-471", "CEOE-472", "IDOE-001", "IDOE-002", "IDOE-003", "IDOE-004", "IDOE-005", "IDOE-006", "EEOE-380", "EEOE-381", "EEOE-382", "EEOE-383", "EEOE-384", "EEOE-385", "EEOE-386", "EEOE-387", "EEOE-480", "EEOE-481", "EEOE-482", "EEOE-483", "EEOE-484", "EEOE-485", "EEOE-486", "EEOE-487", "EEOE-488", "EEOE-489", "EEOE-490", "EEOE-491", "ICOE-371", "ICOE-372", "ICOE-373", "ICOE-374", "ICOE-375", "ICOE-376", "ICOE-377", "ICOE-471", "ICOE-472", "ICOE-473", "ICOE-474", "ICOE-475", "ICOE-476", "ICOE-477", "ICOE-481", "ICOE-482", "ICOE-483", "ICOE-484", "ICOE-485", "ICOE-486", "ICOE-487", "IPOE-421", "IPOE-422", "IPOE-423", "IPOE-424", "IPOE-425", "IPOE-426", "IPOE-427", "ITOE-001", "ITOE-002", "ITOE-003", "ITOE-004", "ITOE-005", "ITOE-006", "MEOE-351", "MEOE-352", "MEOE-353", "MEOE-354", "MEOE-355", "MEOE-356", "MEOE-357", "MEOE-451", "MEOE-452", "MEOE-453", "MEOE-454", "MEOE-455", "MEOE-456", "MEOE-457", "MEOE-458", "MEOE-459", "TTOE-451", "TTOE-452", "TTOE-453", "TTOE-454", "TTOE-455", "TTOE-456", "TTOE-457", "TTOE-458", "TTOE-459", "TTOE-460", "TTOE-461", "TTOE-462", "TTOE-463", "TTOE-464"];
     return (
         <>
             <Topcase heading={"Question Papers"} content={"Below you can find question papers of different subjects of respective departments"} />
             <div className="questionPapers">
                 <div className="questionPapersSidebar">
-                    <div className="questionPapers__link">
-                        <a href="#first">First and Second Semester Subjects</a>
-                    </div>
                     <div className="questionPapers__link">
                         <a href="#CSE">Computer Science and Engineering (CSE)</a>
                     </div>
@@ -58,13 +55,10 @@ function QuestionPapers() {
                         <a href="#BT">Biotechnology (BT)</a>
                     </div>
                     <div className="questionPapers__link">
-                        <a href="#open">Open Elective Seventh semester</a>
+                        <a href="#open">Open Electives</a>
                     </div>
                 </div>
                 <div className="questionPapers__cardDisplay">
-                    <div id="first">
-                        <Card heading="First and Second Semester" subjects={firstAndSecond} />
-                    </div>
                     <div id="CSE">
                         <Card heading="CSE" subjects={CSE} isProgramElective={true} />
                     </div>
@@ -100,6 +94,9 @@ function QuestionPapers() {
                     </div>
                     <div id="open">
                         <Card heading="Open Electives" subjects={openElective} isProgramElective={false} />
+                    </div>
+                    <div id="first">
+                        <Card heading="First and Second Semester" subjects={firstAndSecond} />
                     </div>
                 </div>
 

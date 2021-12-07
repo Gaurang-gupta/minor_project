@@ -12,11 +12,11 @@ function Home() {
             <div className="about">
                 {/* <h1 clasName="first">Saving your time is what we intent.</h1> */}
                 <h2 className="second-head">
-                    Muskuraiye Aap NITJ m hai
+                    Welcome to SWP
                 </h2>
                 <p className="fpara" style={{ fontSize: "19px" }}>
                     {/* We at SWP(Student welfare portal) ensures that all your difficulties related to academics,  hostels, medical care get resolved. We are a student body consisting of student representatives. The solely purpose of establishing this portal is to get rid of the chaos and hustle in searching the required information and saving your precious time. */}
-                    BSW's primary objective is identifying the issues faced by the student community related to academics, social life, mental health and career, and address them through this portal. We are a student body consisting of student representatives. </p>
+                    SWP's primary objective is identifying the issues faced by the student community related to academics, social life, mental health and career, and address them through this portal. We are a student body consisting of student representatives. </p>
             </div>
             <div className="contentdata">
                 <h1>Where to find what?</h1>

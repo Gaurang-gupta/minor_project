@@ -8,9 +8,9 @@ function QuestionPapersPage({ head }) {
         <div>
             <h1 className="questionPapersPage__heading">{h}</h1>
             <div className="questionPapersPage__container">
-                <Card2 heading="Minor 1" subjects={["test"]} />
-                <Card2 heading="Minor 2" subjects={["test"]} />
-                <Card2 heading="End Semester" subjects={["test"]} />
+                <Card2 heading="Minor 1" papers={["test"]} />
+                <Card2 heading="Minor 2" papers={["test"]} />
+                <Card2 heading="End Semester" papers={["test"]} />
             </div>
         </div>
     )

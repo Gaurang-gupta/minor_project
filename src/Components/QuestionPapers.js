@@ -93,7 +93,7 @@ function QuestionPapers() {
                         <Card heading="BT" subjects={BT} isProgramElective={true} />
                     </div>
                     <div id="open">
-                        <Card heading="Open Electives" subjects={openElective} isProgramElective={false} />
+                        <Card heading="Open Electives" subjects={openElective} />
                     </div>
                     <div id="first">
                         <Card heading="First and Second Semester" subjects={firstAndSecond} />

@@ -55,3 +55,21 @@
     grid-template-columns: auto;
   }
 }
+
+@media (max-width: 800px) {
+  .questionPapers {
+    flex-direction: column;
+  }
+
+  .questionPapersSidebar {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .questionPapers__cardDisplay {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

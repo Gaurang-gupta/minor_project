@@ -30,69 +30,8 @@ function Contacts() {
 
     return (
         <>
-            <Topcase heading={"Emergency Contacts"} content={"Below are the emergency contacts of the Institute:"} />
-            {/* <div className="contacts">
-            <div onClick={clickHostel} className="contacts__row" id={!hostel && "row__one"}>
-                <div className={hostel ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Hostels</span></div>
-                <div className={hostel ? "contacts__content" : 'contacts__content__new'}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </div>
-            <div onClick={clickBank} className="contacts__row" id={!bank && "row__two"}>
-                <div className={bank ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Banks</span></div>
-                <div className={bank ? "contacts__content" : 'contacts__content__new'}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </div>
-            <div onClick={clickDept} className="contacts__row" id={!dept && "row__three"}>
-                <div className={dept ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Departments</span></div>
-                <div className={dept ? "contacts__content" : 'contacts__content__new'}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </div>
-            <div onClick={clickDisp} className="contacts__row" id={!disp && "row__four"}>
-                <div className={disp ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Dispensary</span></div>
-                <div className={disp ? "contacts__content" : 'contacts__content__new'}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </div>
-            <div onClick={clickPO} className="contacts__row" id={!po && "row__five"}>
-                <div className={po ? "contacts__heading" : 'contacts__heading__new rotate'}><span>Post Office</span></div>
-                <div className={po ? "contacts__content" : 'contacts__content__new'}>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
+            <Topcase heading={"Emergency Contacts"} content={"We tried to provide all the important official contacts here."} />
+           
             <div className="emergency">
                 <h1>Department Contact info</h1>
                 <ul>

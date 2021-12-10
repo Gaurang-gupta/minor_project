@@ -25,7 +25,7 @@ function Home() {
 
                     <div className="box1">
                         <h3>Question papers</h3>
-                        <p>Here you can find available previous year papers of 10 years.</p>
+                        <p>Here you can find available previous year papers and you can upload if you have any.</p>
 
                         <button className="cstmbtn1">
                             <Link to="/questionPapers"> Learn More</Link> </button>
@@ -44,17 +44,17 @@ function Home() {
                     </div>
                     <div className="box4">
                         <h3>Fee & Form Links</h3>
-                        <p>We attached all important fee and form links to ease the last day hustle. </p>
+                        <p>We attached all important fee and form links here to save your time. </p>
                         <button className="cstmbtn4"> <Link to="/feeform"> Learn More</Link> </button>
                     </div>
                     <div className="box5">
                         <h3>Softwares</h3>
-                        <p>Here you can find software our college purchased and complete guide to install them. </p>
+                        <p>Here you can find software our college has purchased and are necessary for your smooth studies. </p>
                         <button className="cstmbtn5"> <Link to="/softwares"> Learn More</Link> </button>
                     </div>
                     <div className="box6">
                         <h3>Contacts</h3>
-                        <p> We tried to get all the contacts you might need in your college journey.</p>
+                        <p> We tried to get all the offical contacts you might need in your college journey.</p>
                         <button className="cstmbtn6"> <Link to="/contacts"> Learn More</Link> </button>
                     </div>
 

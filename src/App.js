@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Library from './Components/Library';
+import Faq from './Components/Faq';
 // <<<<<<< main
 import Feeform from './Components/Feeform';
 import Showcase from './Components/Showcase';
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/Timetable">
               <Timetable />
+            </Route>
+            <Route path="/Faqs">
+              <Faq />
             </Route>
             <Route path="/contacts">
               <Contacts />

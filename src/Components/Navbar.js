@@ -55,7 +55,12 @@ function Navbar() {
                         </ul>
                         }
                     </li>
-                    <li className='navbar__listItem'>FAQs</li>
+                    
+                    <div className='navbar__listItem'>
+                        <Link className="navbar__contact" to="/Faqs">
+                            FAQs
+                        </Link>
+                    </div>
                     <div className='navbar__listItem'>
                         <Link className="navbar__contact" to="/contactUs">
                             Contact Us

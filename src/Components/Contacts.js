@@ -2,32 +2,7 @@ import React, { useState } from 'react'
 import Topcase from './Topcase';
 import './Contacts.css';
 function Contacts() {
-    const [hostel, setHostel] = useState(true);
-    const [bank, setBank] = useState(true);
-    const [dept, setDept] = useState(true);
-    const [disp, setDisp] = useState(true);
-    const [po, setPO] = useState(true);
-    const clickHostel = () => {
-        setHostel(() => (!hostel));
-        console.log(hostel);
-    }
-
-    const clickBank = () => {
-        setBank(() => (!bank));
-    }
-
-    const clickDept = () => {
-        setDept(() => (!dept));
-    }
-
-    const clickDisp = () => {
-        setDisp(() => (!disp));
-    }
-
-    const clickPO = () => {
-        setPO(() => (!po));
-    }
-
+   
     return (
         <>
             <Topcase heading={"Emergency Contacts"} content={"We tried to provide all the important official contacts here."} />

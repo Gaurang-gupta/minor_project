@@ -93,9 +93,9 @@
     color: white !important;
   }
 
-  .open {
+  /* .open {
     display: block;
-  }
+  } */
 
   .dropDown__nav {
     position: inherit;

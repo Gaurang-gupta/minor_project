@@ -4,7 +4,7 @@ import "./Feeform.css"
 function Feeform() {
     return (
         <>
-        <Topcase heading={"Forms and Links"} content={"We had provided links for Fee submission below to reduce chaos in last moments and also as to some important forms that you need to fill. "}/>
+        <Topcase heading={"Forms and Links"} content={" You can find links for fee payment and important form links."}/>
         <div className="feeform">
             <h1>Fee Links</h1>
             <ul className="feelist">

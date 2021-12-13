@@ -45,6 +45,11 @@
 
 .navbar__listItem {
   font-weight: 500;
+  transition: all 0.25s;
+}
+
+.navbar__listItem:hover {
+  font-weight: 700;
 }
 
 .navbar__listItem:hover {
@@ -79,8 +84,19 @@
   display: none !important;
 }
 
+.navbar__view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
 @media (max-width: 700px) {
   .navbar__list {
+    display: none;
+  }
+
+  .navbar__right__util {
     display: none;
   }
 
@@ -93,9 +109,17 @@
     color: white !important;
   }
 
-  /* .open {
+  .padding {
+    padding-top: 20px;
+  }
+
+  .padding__remove {
+    padding-top: 0px;
+  }
+
+  .open {
     display: block;
-  } */
+  }
 
   .dropDown__nav {
     position: inherit;

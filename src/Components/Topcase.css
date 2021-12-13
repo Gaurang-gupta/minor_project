@@ -1,6 +1,6 @@
 .topdiv {
   /* margin-top: 90px; */
-  background-color: dimgray;
+  background-color: rgb(87, 87, 87);
   color: white;
   min-height: 150px;
   /* margin-top: 50px; */
@@ -37,8 +37,6 @@
     flex-direction: column;
     padding-bottom: 50px;
   }
-
-  
 }
 
 @media (max-width: 320px) {

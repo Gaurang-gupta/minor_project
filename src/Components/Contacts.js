@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
 import Topcase from './Topcase';
 import './Contacts.css';
 function Contacts() {
-   
+
     return (
         <>
             <Topcase heading={"Emergency Contacts"} content={"We tried to provide all the important official contacts here."} />
-           
+
             <div className="emergency">
                 <h1>Department Contact info</h1>
                 <ul>

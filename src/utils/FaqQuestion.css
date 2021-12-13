@@ -1,0 +1,38 @@
+.FaqQuestion__container {
+  color: white !important;
+  background-color: rgb(87, 87, 87);
+  margin-top: 20px;
+  min-width: 1200px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.FaqQuestion__answer {
+  background-color: rgb(114, 114, 114);
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 98%;
+}
+
+.FaqQuestion__answerPara {
+  display: inline-block;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.FaqQuestion__question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FaqQuestion__question:hover {
+  cursor: pointer;
+}
+
+.FaqQuestion__answerDisplay {
+  display: none;
+}

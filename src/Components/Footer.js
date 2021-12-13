@@ -1,7 +1,5 @@
 import React from 'react'
-import InstagramIcon from '@material-ui/icons/Instagram';
-import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaMailBulk } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import "./Footer.css";
 function Footer() {
@@ -31,8 +29,8 @@ function Footer() {
                 <p>Contact Us</p>
                 <p>Follow Us</p>
                 <p className="footer__social">
-                    <InstagramIcon />
-                    <EmailOutlinedIcon className="social" />
+                    <FaInstagram className='instagram' />
+                    <FaMailBulk className="social" />
                     <FaTwitter className="social" />
                 </p>
                 <p>&#169; SWP</p>

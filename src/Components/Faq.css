@@ -1,1 +1,9 @@
+.FAQ__container {
+  width: 100%;
+}
 
+@media (max-width: 400px) {
+  .FAQ__container {
+    width: 95%;
+  }
+}

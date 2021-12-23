@@ -1,0 +1,101 @@
+.contactus {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.contactus__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contactus__newsletter {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.contactus__mailSupport {
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.contactus__contactsList {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.contactus__formHeading {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contactus__formField {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.contactus__formFieldName {
+  margin: 5px 0px;
+  margin-right: 10px;
+}
+
+.contactus__formFieldInput {
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  flex: 1;
+}
+
+.contactus__button {
+  background-color: green;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .contactus__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactus__button {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .contactus__mail {
+    margin-top: 40px;
+  }
+
+  .contactus__formField {
+    flex-direction: column;
+  }
+
+  .contactus__newsletter {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 0;
+    width: 90%;
+  }
+}

@@ -1,5 +1,5 @@
 .navbar {
-  z-index: 1;
+  z-index: 999;
   position: sticky;
   top: 0;
   padding: 10px 20px;
@@ -45,11 +45,7 @@
 
 .navbar__listItem {
   font-weight: 500;
-  transition: all 0.25s;
-}
-
-.navbar__listItem:hover {
-  font-weight: 700;
+  transition: all 0.05s;
 }
 
 .navbar__listItem:hover {
@@ -58,6 +54,10 @@
 
 .navbar__contact {
   color: white !important;
+}
+
+.navbar__link {
+  color: #fff !important;
 }
 
 .dropDown__nav {
@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 700px) {
+  .navbar {
+    z-index: 999;
+  }
   .navbar__list {
     display: none;
   }
@@ -103,10 +106,6 @@
   .toggle {
     display: block !important;
     text-align: center;
-  }
-
-  .toggle .MuiButton-root {
-    color: white !important;
   }
 
   .padding {
@@ -130,5 +129,10 @@
     padding-top: 20px;
     padding-bottom: 10px;
     border: none;
+  }
+
+  .navbar__listItem:hover {
+    cursor: pointer;
+    transform: scale(1);
   }
 }

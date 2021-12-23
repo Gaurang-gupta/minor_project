@@ -26,7 +26,9 @@ function Footer() {
                 </div>
             </div>
             <div className="footer__connect">
-                <p>Contact Us</p>
+                <p>
+                    <Link className='footer__link' to="/contactUs">Contact Us</Link>
+                </p>
                 <p>Follow Us</p>
                 <p className="footer__social">
                     <FaInstagram className='instagram' />

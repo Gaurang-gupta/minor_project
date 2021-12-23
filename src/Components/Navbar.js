@@ -29,7 +29,9 @@ function Navbar() {
             </div>
             <div className={`navbar__right ${!isNavOpen ? "navbar__right__util padding__remove" : "padding"}`}>
                 <ul className={`navbar__list ${isNavOpen && "open"}`}>
-                    <li className='navbar__listItem'>About Us</li>
+                    <li className='navbar__listItem'>
+                        <Link className='navbar__link' to="/aboutUs">About Us</Link>
+                    </li>
                     <li className='navbar__listItem' >
                         <li className="resources" onClick={dropDownChangeHandler}>
                             Resources {!isDropDownOpen ? <VscChevronDown /> : <VscChevronUp />}

@@ -13,6 +13,8 @@ import QuestionPapers from './Components/QuestionPapers';
 import Softwares from './Components/Softwares';
 // =======
 import Footer from './Components/Footer';
+// import AboutUs from "./Components/Aboutus"
+import ContactUs from "./Components/Contactus"
 import SoftwaresOfBranches from './Components/SoftwaresOfBranches';
 import ProgramElective from './QuestionPaperComponents/ProgramElective';
 import QuestionPapersPage from './QuestionPaperComponents/QuestionPapersPage';
@@ -24,19 +26,25 @@ function App() {
         <Navbar />
         <div className="app__util">
           <Switch>
-            <Route path="/library">
+            {/* <Route exact path="/aboutUs">
+              <AboutUs />
+  </Route> */}
+            <Route exact path="/contactUs">
+              <ContactUs />
+            </Route>
+            <Route exact path="/library">
               <Library />
             </Route>
-            <Route path="/feeform">
+            <Route exact path="/feeform">
               <Feeform />
             </Route>
-            <Route path="/Timetable">
+            <Route exact path="/Timetable">
               <Timetable />
             </Route>
-            <Route path="/Faqs">
+            <Route exact path="/Faqs">
               <Faq />
             </Route>
-            <Route path="/contacts">
+            <Route exact path="/contacts">
               <Contacts />
             </Route>
             <Route path="/softwares/:id">
@@ -45,15 +53,9 @@ function App() {
               )
               }
             </Route>
-            <Route path="/softwares">
+            <Route exact path="/softwares">
               <Softwares />
             </Route>
-            {/* <Route path="/questionPapers/:id">
-            {()=>(
-            <QuestionPapersOfBranches branch={window.location.pathname}/>
-            )
-            }
-          </Route> */}
             <Route path="/questionPapers/:id/departmentElective/:id">
               {() => (
                 <QuestionPapersPage head={window.location.pathname} />
@@ -66,10 +68,10 @@ function App() {
               )
               }
             </Route>
-            <Route path="/questionPapers">
+            <Route exact path="/questionPapers">
               <QuestionPapers />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <Showcase />
               <Home />
             </Route>

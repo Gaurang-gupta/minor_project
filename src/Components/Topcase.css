@@ -1,9 +1,7 @@
 .topdiv {
-  /* margin-top: 90px; */
   background-color: rgb(87, 87, 87);
   color: white;
   min-height: 150px;
-  /* margin-top: 50px; */
 }
 .container {
   display: flex;
@@ -36,11 +34,5 @@
   .container {
     flex-direction: column;
     padding-bottom: 50px;
-  }
-}
-
-@media (max-width: 320px) {
-  .topdiv {
-    margin-top: 200px;
   }
 }

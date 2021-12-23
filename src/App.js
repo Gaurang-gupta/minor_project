@@ -28,7 +28,7 @@ function App() {
           <Switch>
             {/* <Route exact path="/aboutUs">
               <AboutUs />
-  </Route> */}
+            </Route> */}
             <Route exact path="/contactUs">
               <ContactUs />
             </Route>

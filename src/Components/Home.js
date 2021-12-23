@@ -22,7 +22,7 @@ function Home() {
                 <h1>Where to find what?</h1>
                 <div className="gridbox">
                     <div className="box1">
-                        <h3>Question papers</h3>
+                        <h3 className='home__heading'>Question papers</h3>
                         <p>Here you can find available previous year papers and you can upload if you have any.</p>
 
                         <button className="cstmbtn1 home__btn">
@@ -31,27 +31,27 @@ function Home() {
                     </div>
 
                     <div className="box2">
-                        <h3>Time Table/Calendar</h3>
+                        <h3 className='home__heading'>Time Table/Calendar</h3>
                         <p>Get the time table of all the branches with syllabus and NITJ Academic calendar.</p>
                         <button className="cstmbtn2 home__btn"> <Link to="/Timetable"> Learn More </Link> </button>
                     </div>
                     <div className="box3">
-                        <h3>E-Library</h3>
+                        <h3 className='home__heading'>E-Library</h3>
                         <p>Find the book of your interest in NITJ'S E-library and Ntional Digital Library.</p>
                         <button className="cstmbtn3 home__btn"> <Link to="/library"> Learn More</Link> </button>
                     </div>
                     <div className="box4">
-                        <h3>Fee & Form Links</h3>
+                        <h3 className='home__heading'>Fee & Form Links</h3>
                         <p>We attached all important fee and form links here to save your time. </p>
                         <button className="cstmbtn4 home__btn"> <Link to="/feeform"> Learn More</Link> </button>
                     </div>
                     <div className="box5">
-                        <h3>Softwares</h3>
+                        <h3 className='home__heading'>Softwares</h3>
                         <p>Here you can find software our college has purchased and are necessary for your smooth studies. </p>
                         <button className="cstmbtn5 home__btn"> <Link to="/softwares"> Learn More</Link> </button>
                     </div>
                     <div className="box6">
-                        <h3>Contacts</h3>
+                        <h3 className='home__heading'>Contacts</h3>
                         <p> We tried to get all the offical contacts you might need in your college journey.</p>
                         <button className="cstmbtn6 home__btn"> <Link to="/contacts"> Learn More</Link> </button>
                     </div>

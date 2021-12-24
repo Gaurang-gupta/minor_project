@@ -18,7 +18,6 @@ function Timetable() {
                                     <th>3rd Year</th>
                                     <th>4th Year</th>
                                     <th>Syllabus</th>
-
                                 </tr>
                             </thead>
 

@@ -1,0 +1,21 @@
+.aboutUs {
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.aboutUs__heading {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.aboutUs__content {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+  .aboutUs {
+    width: 90%;
+  }
+}

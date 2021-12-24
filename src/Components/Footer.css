@@ -47,6 +47,7 @@
   font-size: 40px;
   font-weight: 600;
   margin-left: 20px;
+  color: white;
 }
 
 .footer__heading {
@@ -86,6 +87,10 @@
 
 .footer__link {
   color: white !important;
+}
+
+.footer__logoLink {
+  display: flex;
 }
 
 @media (max-width: 1070px) {

@@ -64,7 +64,7 @@
   background-color: #a6192e;
   position: absolute;
   top: 80px;
-  min-width: 200px;
+  width: 180px;
   font-weight: 400;
   list-style: none;
 }
@@ -89,6 +89,22 @@
   align-items: center;
   justify-content: space-between;
   flex: 1;
+}
+
+@media (max-width: 1100px) {
+  .dropDown__nav {
+    width: 170px;
+  }
+}
+
+@media (max-width: 900px) {
+  .dropDown__nav {
+    width: 160px;
+  }
+
+  .navbar__right {
+    flex-grow: 0.6;
+  }
 }
 
 @media (max-width: 700px) {

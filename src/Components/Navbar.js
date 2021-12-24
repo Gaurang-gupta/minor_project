@@ -9,11 +9,11 @@ function Navbar() {
     const [isNavOpen, setNavOpen] = useState(false);
     const dropDownChangeHandler = () => {
         setDropDownOpen(() => (!isDropDownOpen));
-        console.log(isDropDownOpen)
     }
 
     const navChangeHandler = () => {
         setNavOpen(() => (!isNavOpen));
+        setDropDownOpen(false);
     }
 
     return (
@@ -29,7 +29,7 @@ function Navbar() {
             </div>
             <div className={`navbar__right ${!isNavOpen ? "navbar__right__util padding__remove" : "padding"}`}>
                 <ul className={`navbar__list ${isNavOpen && "open"}`}>
-                    <li className='navbar__listItem'>
+                    <li onClick={navChangeHandler} className='navbar__listItem'>
                         <Link className='navbar__link' to="/aboutUs">About Us</Link>
                     </li>
                     <li className='navbar__listItem' >

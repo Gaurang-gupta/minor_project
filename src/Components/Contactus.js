@@ -45,11 +45,11 @@ export class Contactus extends Component {
             <h1 className="contactus__formHeading">Subscribe to newsletter</h1>
             <div className="contactus__formField">
               <p className="contactus__formFieldName">Name *</p>
-              <input className="contactus__formFieldInput" type="text" Required="required" />
+              <input className="contactus__formFieldInput" type="text" required />
             </div>
             <div className="contactus__formField">
               <p className="contactus__formFieldName">Email *</p>
-              <input className="contactus__formFieldInput" id="txt_email" type="email" Required="required" />
+              <input className="contactus__formFieldInput" id="txt_email" type="email" required />
             </div>
             <button className="contactus__button" type="submit">Submit</button>
           </form>

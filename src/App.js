@@ -13,7 +13,7 @@ import QuestionPapers from './Components/QuestionPapers';
 import Softwares from './Components/Softwares';
 // =======
 import Footer from './Components/Footer';
-// import AboutUs from "./Components/Aboutus"
+import AboutUs from "./Components/Aboutus"
 import ContactUs from "./Components/Contactus"
 import SoftwaresOfBranches from './Components/SoftwaresOfBranches';
 import ProgramElective from './QuestionPaperComponents/ProgramElective';
@@ -26,9 +26,9 @@ function App() {
         <Navbar />
         <div className="app__util">
           <Switch>
-            {/* <Route exact path="/aboutUs">
+            <Route exact path="/aboutUs">
               <AboutUs />
-            </Route> */}
+            </Route>
             <Route exact path="/contactUs">
               <ContactUs />
             </Route>

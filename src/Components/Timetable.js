@@ -4,7 +4,7 @@ import Topcase from './Topcase'
 function Timetable() {
     return (
         <>
-            <Topcase heading={"Time Table/Calendar"} content={"Detailed below are the Time table and Academic calendar of varios branches of NITJ"} />
+            <Topcase heading={"Time Table/ Calendar"} content={"Detailed below are the Time table and Academic calendar of varios branches of NITJ"} />
             <div className="upper-part">
                 <div className="table-contents">
                     <h1 className="theading"> Time Table and Syllabus </h1>

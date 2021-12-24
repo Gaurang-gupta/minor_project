@@ -35,4 +35,8 @@
     flex-direction: column;
     padding-bottom: 50px;
   }
+
+  .headingdiv h1 {
+    font-size: 3rem;
+  }
 }

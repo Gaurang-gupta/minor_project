@@ -32,7 +32,7 @@
   overflow-x: scroll;
 }
 
-::-webkit-scrollbar {
+.table_contents::-webkit-scrollbar {
   display: none;
 }
 

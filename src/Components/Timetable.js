@@ -9,8 +9,7 @@ function Timetable() {
                 <div className="table-contents">
                     <h1 className="theading"> Time Table and Syllabus </h1>
                     <div className="table-block">
-                        <table >
-
+                        <table className='timetable__table'>
                             <thead className="table-head">
                                 <tr>
                                     <th>1st Year</th>

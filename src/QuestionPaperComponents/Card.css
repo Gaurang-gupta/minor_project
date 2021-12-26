@@ -10,6 +10,10 @@
   height: 300px !important;
 }
 
+.card__hieght {
+  height: fit-content !important;
+}
+
 .card__listContainer::-webkit-scrollbar {
   width: 0 !important;
 }

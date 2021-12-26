@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Card.css"
-function Card({ heading, subjects, isProgramElective }) {
+function Card({ heading, subjects, isProgramElective, setProgramElective }) {
     return (
-        <div className="card">
+        <div className='card'>
             <div className="card__headingContainer">
                 <h1 className="card__heading">{heading}</h1>
             </div>
-            <div className="card__listContainer">
+            <div className={`card__listContainer ${setProgramElective && "card__hieght"}`}>
                 <ul className="card__list">
                     {subjects.map((subject, index) => (
                         <li className="card__listItem" key={index}>

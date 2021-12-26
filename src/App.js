@@ -56,13 +56,13 @@ function App() {
             <Route exact path="/softwares">
               <Softwares />
             </Route>
-            <Route path="/questionPapers/:id/departmentElective/:id">
+            <Route exact path="/questionPapers/:id/departmentElective/:id">
               {() => (
-                <QuestionPapersPage head={window.location.pathname} />
+                <QuestionPapersPage head={window.location.pathname} search={window.location.search} />
               )
               }
             </Route>
-            <Route path="/questionPapers/:id/departmentElective">
+            <Route path="/questionPapers/:id/programElective">
               {() => (
                 <ProgramElective branch={window.location.pathname} />
               )

@@ -57,6 +57,9 @@ function QuestionPapers() {
                     <div className="questionPapers__link">
                         <a href="#open">Open Electives</a>
                     </div>
+                    <div className='questionPapers__link'>
+                        <a href='#first'>First and Second Semester</a>
+                    </div>
                 </div>
                 <div className="questionPapers__cardDisplay">
                     <div id="CSE">

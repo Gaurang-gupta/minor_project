@@ -1,7 +1,9 @@
 import React from 'react'
 import Card2 from './Card2';
 import "./QuestionPaperPage.css"
-function QuestionPapersPage({ head }) {
+function QuestionPapersPage({ head, search }) {
+    console.log(head);
+    console.log(search);
     const br = head.split('/');
     const h = br[br.length - 1];
     return (

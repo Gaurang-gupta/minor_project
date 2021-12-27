@@ -13,9 +13,7 @@ function ProgramElective({ branch }) {
             <div className="programElective__container">
                 {
                     Object.keys(programElective[branch]).map(key => (
-                        <>
-                            <Card heading={key} subjects={programElective[branch][key]} />
-                        </>
+                        <Card heading={key} subjects={programElective[branch][key]} setProgramElective={true} branch={branch} />
                     ))
                 }
             </div>

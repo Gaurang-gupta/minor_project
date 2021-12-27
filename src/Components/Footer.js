@@ -9,7 +9,7 @@ function Footer() {
                 <h2 className="footer__heading">Feedback</h2>
                 <p>Please give us your suggestions and feedback</p>
                 <div className="footer__heading__links">
-                    <a className="footer__header__link" href="#">Click here for feedback form</a>
+                    <a className="footer__header__link" href="https://forms.gle/MU7mchfsLYZrWnqa6">  Click here for feedback form</a>
                     <a className="footer__header__link" href="#">Click here for sending pdfs</a>
                     <a className="footer__header__link" href="#">Privacy Policy</a>
                     {/* <a className="footer__header__link" href="#">Copyright Policy</a> */}

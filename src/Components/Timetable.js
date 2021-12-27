@@ -349,6 +349,7 @@ function Timetable() {
                         </table>
                     </div>
                     {/* <br/> */}
+                    <h1>If you dont find your time table here please inform your class representative to contact us through <a href="https://forms.gle/MU7mchfsLYZrWnqa6" >this </a>google form and upload the time table.</h1>
                     <div className="calendar-div">
                         <h1>Academic Calendar</h1>
                         <ul>

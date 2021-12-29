@@ -63,6 +63,14 @@
   font-weight: 500;
   background-color: #a6192e;
   color: white;
-  border: none;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.25s ease-out;
+}
+
+.card__elective:hover {
+  box-shadow: 1px 5px 5px 0px rgba(120, 111, 111, 0.75);
+  -webkit-box-shadow: 1px 5px 5px 0px rgba(120, 111, 111, 0.75);
+  -moz-box-shadow: 1px 5px 5px 0px rgba(120, 111, 111, 0.75);
 }

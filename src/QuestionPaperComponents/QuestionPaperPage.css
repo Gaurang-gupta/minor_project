@@ -12,3 +12,19 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+  .questionPapersPage__container {
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .questionPapersPage__container {
+    grid-template-columns: auto;
+    row-gap: 10px;
+    width: 80%;
+  }
+}

@@ -12,13 +12,12 @@ function Footer() {
                     <a className="footer__header__link" href="https://forms.gle/MU7mchfsLYZrWnqa6">  Click here for feedback form</a>
                     <a className="footer__header__link" href="#">Click here for sending pdfs</a>
                     <a className="footer__header__link" href="#">Privacy Policy</a>
-                    {/* <a className="footer__header__link" href="#">Copyright Policy</a> */}
                 </div>
             </div>
             <div className="footer__logo">
                 <Link className='footer__logoLink' to="/">
                     <div>
-                        <img className="footer__image" src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="logo" />
+                        <img className="footer__image" src="test.png" alt="logo" />
                     </div>
                     <div className="footer__title">
                         SWP

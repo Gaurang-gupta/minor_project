@@ -20,7 +20,7 @@ function Navbar() {
         <div className={`navbar ${isNavOpen && "open"}`}>
             <div className='navbar__view'>
                 <div className="navbar__left">
-                    <img className="navbar__logo" src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="logo" />
+                    <img className="navbar__logo" src="test.png" alt="logo" />
                     <Link to="/" className="navbar__title">SWP</Link>
                 </div>
                 <div className="toggle">

@@ -17,7 +17,7 @@ function Footer() {
             <div className="footer__logo">
                 <Link className='footer__logoLink' to="/">
                     <div>
-                        <img className="footer__image" src="test.png" alt="logo" />
+                        <img className="footer__image" src="test.svg" alt="logo" />
                     </div>
                     <div className="footer__title">
                         SWP

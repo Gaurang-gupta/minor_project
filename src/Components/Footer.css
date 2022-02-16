@@ -92,7 +92,9 @@
 .footer__logoLink {
   display: flex;
 }
-
+.mail{
+  margin-left: 2%;
+}
 @media (max-width: 1070px) {
   .footer__logo {
     display: none;

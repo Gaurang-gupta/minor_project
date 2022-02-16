@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Timetable.css"
+import "./TImetable.css"
 import Topcase from './Topcase'
 function Timetable() {
     return (

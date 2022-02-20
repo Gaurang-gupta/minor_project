@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaInstagram, FaMailBulk } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import "./Footer.css";
 function Footer() {

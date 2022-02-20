@@ -42,7 +42,7 @@ export class Contactus extends Component {
             </div>
           </div>
           <div className='contactus__join'>
-            <a href='https://forms.gle/MU7mchfsLYZrWnqa6' target="_blank" className='contactus__join__link'>Join Us</a>
+            <a href='https://forms.gle/MU7mchfsLYZrWnqa6' target="_blank" rel='noreferrer' className='contactus__join__link'>Join Us</a>
           </div>
           <form className="contactus__newsletter">
             <h1 className="contactus__formHeading">Subscribe to newsletter</h1>

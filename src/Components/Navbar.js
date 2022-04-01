@@ -51,7 +51,7 @@ function Navbar() {
                                     <Dropdown link="/feeform" title="Forms and Fee Links" />
                                 </li>
                                 <li onClick={dropDownChangeHandler}>
-                                    <Dropdown link="/softwares" title="Softwares" />
+                                    <Dropdown link="/softwares" title="Software" />
                                 </li>
                                 <li onClick={dropDownChangeHandler}>
                                     <Dropdown link="/contacts" title="Emergency Contacts" />

@@ -5,7 +5,7 @@ import "./Softwares.css"
 function Softwares() {
     return (
         <>
-        <Topcase heading={"Softwares"} content={"Below you can find about different softwares our college has purchased and a brief introduction about them."}/>
+        <Topcase heading={"Software"} content={"Below you can find about different software our college has purchased and a brief introduction about them."}/>
         <div className="softwares">
             <div className="softwares__link">
                 <Link to="/softwares/CSE">

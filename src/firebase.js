@@ -1,5 +1,6 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 import firebase from 'firebase/compat/app'
+import 'firebase/compat/firestore'
 import "firebase/compat/storage";
 
 const firebaseConfig = {
@@ -11,6 +12,10 @@ const firebaseConfig = {
   appId: "1:63660216316:web:86ae0f0ee4ff4075e1ac79",
   measurementId: "G-X3F4TVPPH1"
 };
+
+firebase.initializeApp(firebaseConfig);
+const storage = firebase.storage()
+const db = firebase.firestore();
 
 let fileNames = [];
 async function list(folder) {
@@ -26,8 +31,5 @@ async function list(folder) {
   // [END storage_list_all]
   return fileNames;
 }
-
-firebase.initializeApp(firebaseConfig);
-const storage = firebase.storage()
-export { list };
+export { list, db };
 export default storage

@@ -33,7 +33,7 @@ function Faq() {
                 />
                 <FaqQuestion
                     question={"How to reach NIT campus?"}
-                    answer={"Their are pletny of transportation facilites available in jalandhar city. You can book ola, uber, auto anything. It hardly costs 100-300 rs to reach NIT jalandhar campus."}
+                    answer={"Their are plenty of transportation facilites available in jalandhar city. You can book ola, uber, auto anything. It hardly costs 100-300 rs to reach NIT jalandhar campus."}
                 />
                 <FaqQuestion
                     question={"How can I be allowed to stay in hostel during vacations?"}
